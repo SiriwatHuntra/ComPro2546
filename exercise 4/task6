@@ -1,0 +1,5 @@
+n = int(input("enter number : "))
+i=n
+while i <= 50:
+  print(i,end=" ")
+  i=i+n
