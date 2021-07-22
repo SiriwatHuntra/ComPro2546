@@ -1,0 +1,15 @@
+normal_set = ['a','b','c','d','e','f','g','h','i','j','k','l','n','m','o','p','q','r','s','t','u','v','x','y','z']
+shift_set = ['A','B','C','D','E','F','G','H','I','J','K','L','N','M','O','P','Q','R','S','T','U','V','X','Y','Z']
+sentense = input('enter yor sentense:')
+c = len(sentense)
+sh=0
+nr=0
+for i in range(c):
+  if sentense[i] in shift_set:
+    sh+=1
+  if sentense[i] in normal_set:
+    nr+=1
+   
+print('Have {} uppercase.'.format(sh))
+print('Have {} lowwercase.'.format(nr))
+print('Have {} specialcase.'.format(c-(nr+sh)))
