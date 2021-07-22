@@ -1,0 +1,20 @@
+stack = []
+word = ''
+while True:
+  word = input('enter word :')
+  if word == 'cancel':
+    break
+  elif word == 'pop':
+    if stack == [] :
+      print('no item inside')
+    else :
+      stack.pop()
+      print("data >>",end='')
+      for i in range (len(stack)):
+        print(stack[i],end=' ')
+  else :
+    stack.append(word)
+    print("data >>",end='')
+    for i in range (len(stack)):
+      print(stack[i],end=' ')
+print('end program!!')
