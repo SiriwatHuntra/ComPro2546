@@ -1,0 +1,9 @@
+#17
+letter =  {'1':['a','b'], '2':['c','d']}
+
+let1 = letter.get('1')
+let2 = letter.get('2')
+
+for i in let1:
+  for j in let2:
+    print(i+j)
