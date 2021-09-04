@@ -1,0 +1,15 @@
+#10
+color_code = [
+              {'id':'#FF000','color':'Red'},
+              {'id':'#800000','color':'Maroon'},
+              {'id':'#FFFF00','color':'Yellow'},
+              {'id':'#808000','color':'Olive'}
+             ]
+
+erase = '#FF000'
+for i in range(len(color_code)):
+  check = color_code[i]
+  if erase == check['id']:
+    del color_code[i]
+    break
+print(color_code)
