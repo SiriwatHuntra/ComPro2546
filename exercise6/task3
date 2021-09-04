@@ -1,0 +1,14 @@
+#3
+sampledict = {
+    'class':{
+        'student':{
+            'name':'mike',
+            'mask':{
+                'physic':70,
+                'history':80
+                
+      }    
+    }
+  }
+}
+print(sampledict['class']['student']['mask']['history'])
