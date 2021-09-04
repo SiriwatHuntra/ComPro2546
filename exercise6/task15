@@ -1,0 +1,6 @@
+#15
+n_dict = int(input("enter dict lenght :"))
+dic = {}
+for i in range(n_dict):
+ dic.update({(i+1):(i+1)**2})
+print(dic)
