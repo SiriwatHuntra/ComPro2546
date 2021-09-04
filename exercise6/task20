@@ -1,0 +1,10 @@
+#20
+sampledict = {'a':500,
+              'b':5872,
+              'c':560,
+              'd':400,
+              'e':5874,
+              'f':20,
+}
+b = sorted(sampledict,key = sampledict.get,reverse=True)[:3]
+print(b)
