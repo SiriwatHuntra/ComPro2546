@@ -1,0 +1,14 @@
+#8
+sampledict = {'physic':82,
+              'math':65,
+              'history':75}
+sort_sam = sorted(sampledict.values())
+sort={}
+
+for i in sort_sam:
+  for k in sampledict.keys():
+       if sampledict[k] == i:
+         sort[k] = sampledict[k]
+         
+order = list(sort.keys())
+print(order[0])
