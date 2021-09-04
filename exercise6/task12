@@ -1,0 +1,7 @@
+#12
+sample_dict = {0:10,1:20}
+expec_dict = {2:30}
+
+for i in expec_dict:
+  sample_dict[i] = expec_dict[i]
+print(sample_dict)
