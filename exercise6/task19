@@ -1,0 +1,11 @@
+#19
+def char_count(c):
+  blank = {}
+  for i in c:
+    key = blank.keys()
+    if i in key:
+      blank[i] += 1 
+    else:
+      blank[i]=1
+  return blank
+print(char_count('error'))
