@@ -1,0 +1,17 @@
+#11
+original_dict = {
+    1:2,
+    3:4,
+    4:3,
+    2:1,
+    0:0
+}
+sort_val = sorted(original_dict.values())
+sort={}
+
+for i in sort_val:
+  for k in original_dict.keys():
+       if original_dict[k] == i:
+         sort[k] = original_dict[k]
+         
+print(sort)
