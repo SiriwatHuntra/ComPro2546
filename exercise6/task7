@@ -1,0 +1,10 @@
+#7
+sampledict = {
+    'name':'kelly',
+    'age':25,
+    'salary':8000,
+    'city':'new york'
+}
+up = sampledict.pop('city')
+sampledict['location'] = up
+print(sampledict)
