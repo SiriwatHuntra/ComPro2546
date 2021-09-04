@@ -1,0 +1,9 @@
+#6
+sampledict = {'a':100,'b':200,'c':300}
+check = []
+for i in sampledict:
+ check.append(sampledict[i]) 
+200 in check
+
+checking = 200 in sampledict.values()
+print(checking)
