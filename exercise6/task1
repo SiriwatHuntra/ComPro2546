@@ -1,0 +1,7 @@
+#1
+Keys = ['Ten', 'Twenty','Thirty']
+Values = [10, 20, 30]
+dic={}
+for i in range(len(Keys)):
+ dic[str(Keys[i])]= Values[i]
+print(dic)
